@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1 , 
+        "title" : "Villa", 
+        "image" : "./assets/villa.jpg" 
+    } , 
+    {
+        "id" : 2 , 
+        "title" : "Appartment" , 
+        "image" : "./assets/appartment.jpg"
+    }
+]
