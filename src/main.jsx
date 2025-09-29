@@ -4,15 +4,14 @@ import App from './App.jsx'
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Instructions from './Instructions.jsx'
+import Dashboard from './Dashboard.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode> 
     <BrowserRouter>
         <Routes>
           <Route path="/instructions" element={<Instructions />} /> 
-          <Route path="/" element={<App />} />
-
-
+          <Route path="/" element={<Dashboard />} />
         </Routes>
 
     </BrowserRouter> 
