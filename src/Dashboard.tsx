@@ -18,7 +18,7 @@ import {
   createMockQuestion,
   createMockAnswer,
   createMockInstructionPage,
-} from './utils/MockData';
+} from './utils/mockData';
 import type { 
   Property, 
   Guest, 
